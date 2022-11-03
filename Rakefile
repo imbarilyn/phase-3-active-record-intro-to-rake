@@ -18,6 +18,19 @@ task console: :environment do
 end
 end
 
+namespace :greeting do
+  task :hello do 
+    puts "hello from Rake!"
+end
+
+task :hola do
+  puts "hola de Rake!"
+end
+end
+
+task :console do 
+end
+
 
 
 
